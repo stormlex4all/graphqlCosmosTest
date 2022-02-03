@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <!--<ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Test.CosmosDB\Test.NoSQL.csproj" />
+    <ProjectReference Include="..\Test.Interfaces\Test.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
